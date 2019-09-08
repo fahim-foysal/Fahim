@@ -1,0 +1,17 @@
+/*!
+ * Start Bootstrap - Blog Post (https://startbootstrap.com/template-overviews/blog-post)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+.card-header{
+  background-color:lightblue;
+}
+.py-5
+{
+  height: 15px;
+}
