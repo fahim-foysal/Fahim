@@ -3,50 +3,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Log in</title>
+  <title>Sign Up</title>
   <link rel="stylesheet" href="css/login.css">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
 </head>
 <body background="image/backgroun2.jpg">
-   
-  
     <div class="container">
         <div class="row">
           <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
             <div class="card card-signin my-5">
               <div class="card-body">
-                <h5 class="card-title text-center"> Sign In</h5>
-                <form class="form-signin" id="login_form">
+                <h5 class="card-title text-center"> Sign Up</h5>
+                <form class="form-signin">
+                    <div class="form-label-group">
+                        <input type="text" id="inputUsername" class="form-control" placeholder="User name" required>
+                        <label for="inputUsername">User name</label>
+                      </div>
                   <div class="form-label-group">
                     <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
                     <label for="inputEmail">Email address</label>
                   </div>
     
-                  <div class="form-label-group" >
+                  <div class="form-label-group">
                     <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
                     <label for="inputPassword">Password</label>
                   </div>
-    
-                  
-                  <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" id="submit-btn">Sign in</button>
+                  <div class="form-label-group">
+                      <input type="password" id="inputPassword2" class="form-control" placeholder="Confirm Password" required>
+                      <label for="inputPassword2">Confirm Password</label>
+                    </div>              
+                  <button class="btn btn-lg btn-primary btn-block " type="submit" id="submit-btn">Sign up</button>
                   <br>
                   <br>
-                  <a href="sign_up.html"><p style="text-align:center">Don't have an acount? Sign up.</a>
+                  <a href="login.html"><p style="text-align:center">Already have an account? Sign In</a>
                 </form>
               </div>
             </div>
           </div>
         </div>
       </div>
-            <!-- FireBase -->
+      <!-- FireBase -->
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-firestore.js"></script>
 <!-- FireBase End-->
 <script src="./firebase.js"></script>
-<script src="./log.js"></script>
-
+<script src="./signup.js"></script>
 </body>
 </html>

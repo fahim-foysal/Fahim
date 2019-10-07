@@ -2,10 +2,7 @@
   --input-padding-x: 1.5rem;
   --input-padding-y: .75rem;
 }
-#logo {
-  font-size: 25px;
-  color:aqua;
-}
+
 body {
   /*background: #007bff; */
 

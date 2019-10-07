@@ -1,0 +1,13 @@
+#logo {
+    font-size: 25px;
+    color:aqua;
+}
+
+body > footer{
+    margin:0px;
+    padding:0px;
+    min-width:100%;
+    max-width:100%;
+    
+    height:auto;
+}
